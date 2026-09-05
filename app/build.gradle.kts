@@ -4,8 +4,8 @@ plugins {
     id("org.jetbrains.kotlin.plugin.compose")
 }
 
-android { namespace = "com.streamhub.mvp"; compileSdk = 37
-    defaultConfig { applicationId = "com.streamhub.mvp"; minSdk = 24; targetSdk = 37; versionCode = 1; versionName = "0.1.0" }
+android { namespace = "com.streamhub.mvp"; compileSdk = 36
+    defaultConfig { applicationId = "com.streamhub.mvp"; minSdk = 24; targetSdk = 36; versionCode = 1; versionName = "0.1.0" }
     buildFeatures { compose = true }
 }
 
